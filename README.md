@@ -11,7 +11,7 @@
 
 # goalkeeper
 
-A goal-oriented autonomous agent that **physically cannot run away from its budget** and **stops itself when it drifts off-goal** — the two failure modes that made the most-starred agents (AutoGPT ~170k★, BabyAGI) painful in production. Tiny by design, model-pluggable, tuned for **Claude Opus 4.8**.
+A goal-oriented autonomous agent that **physically cannot run away from its budget** and **stops itself when it drifts off-goal** — the two failure modes that made the most-starred agents (AutoGPT ~170k stars, BabyAGI) painful in production. Tiny by design, model-pluggable, tuned for **Claude Opus 4.8**.
 
 > The most-starred agents proved the *idea*. Their well-documented problems — runaway token cost, goal drift, undebuggable loops, and over-engineered reasoning chains — are exactly what `goalkeeper` is built to fix.
 
@@ -76,6 +76,6 @@ The suite drives the **real loop** with a fake model client, so it proves the he
 ## Author
 
 **Anthony Harwelik** — security & AI engineering
-📧 [aharwelik@gmail.com](mailto:aharwelik@gmail.com) · 🐙 [github.com/aharwelik](https://github.com/aharwelik)
+[aharwelik@gmail.com](mailto:aharwelik@gmail.com) · [github.com/aharwelik](https://github.com/aharwelik)
 
 <sub>© 2026 Anthony Harwelik · MIT License · An agent that knows when to stop.</sub>
