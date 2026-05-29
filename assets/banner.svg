@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="goalkeeper">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="0.55" stop-color="#120e26"/>
+      <stop offset="1" stop-color="#1b1038"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" fill="url(#bg)"/>
+  <g stroke="#241a44" stroke-width="1" opacity="0.5">
+    <path d="M0 80 H1280 M0 160 H1280 M0 240 H1280"/>
+    <path d="M160 0 V320 M320 0 V320 M480 0 V320 M640 0 V320 M800 0 V320 M960 0 V320 M1120 0 V320"/>
+  </g>
+  <!-- target + guard -->
+  <g transform="translate(100,100)" fill="none" stroke="url(#accent)" stroke-width="6">
+    <circle cx="60" cy="60" r="48"/>
+    <circle cx="60" cy="60" r="28"/>
+    <circle cx="60" cy="60" r="8" fill="url(#accent)" stroke="none"/>
+    <path d="M60 4 V18 M60 102 V116 M4 60 H18 M102 60 H116"/>
+  </g>
+  <text x="280" y="138" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="58" font-weight="700" fill="#ede9fe">goalkeeper</text>
+  <text x="282" y="186" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="22" fill="#a5f3fc">goal-oriented agent that won't run away — hard cost governor + drift guard</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" fill="#c4b5fd">
+    <rect x="282" y="214" width="170" height="30" rx="6" fill="#171132" stroke="#3b2d63"/>
+    <text x="298" y="234">Tuned for Opus 4.8</text>
+    <rect x="466" y="214" width="120" height="30" rx="6" fill="#171132" stroke="#3b2d63"/>
+    <text x="482" y="234">Node 18+</text>
+    <rect x="600" y="214" width="180" height="30" rx="6" fill="#171132" stroke="#3b2d63"/>
+    <text x="616" y="234">10 tests, no API key</text>
+  </g>
+  <text x="282" y="286" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace"
+        font-size="18" fill="#8b7bb8">Anthony Harwelik · github.com/aharwelik · aharwelik@gmail.com</text>
+</svg>

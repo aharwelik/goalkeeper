@@ -1,0 +1,17 @@
+{
+  "name": "goalkeeper",
+  "version": "1.0.0",
+  "description": "A goal-oriented autonomous agent that refuses to run away: hard cost governor + goal-drift detection. Tuned for Claude Opus 4.8.",
+  "type": "module",
+  "bin": { "goalkeeper": "bin/goalkeeper.js" },
+  "scripts": {
+    "test": "node test/run.mjs",
+    "start": "node bin/goalkeeper.js"
+  },
+  "keywords": ["ai-agent", "autonomous", "anthropic", "claude", "opus", "budget", "goal-drift"],
+  "author": "Anthony Harwelik <aharwelik@gmail.com> (https://github.com/aharwelik)",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "peerDependencies": { "@anthropic-ai/sdk": ">=0.30.0" },
+  "peerDependenciesMeta": { "@anthropic-ai/sdk": { "optional": true } }
+}
